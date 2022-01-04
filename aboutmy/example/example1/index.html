@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="index.css">
+	<meta charset="utf-8">
+	<script type="text/javascript" src="index2.js"></script>
+	
+	<title>Лаба 5</title>
+</head>
+<body>
+	<div><h1>Группа <mark>Порнофильмы</mark> - Молодость</h1></div>
+	<div id="Music"><audio src="media\Music.mp3" controls="controls"></audio></div>
+	<div id="Video"><video src="media\video.mp4" controls="controls"></video></div>
+	<div id="geo">
+			<h1>HTML Получить координаты геолокации</h1>
+
+			<button onclick="getLocation()">Попробовать</button>
+
+			<p id="demo"></p>
+
+			<script>
+			var x = document.getElementById("demo");
+
+			function getLocation() {
+			    if (navigator.geolocation) {
+			        navigator.geolocation.getCurrentPosition(showPosition);
+			    } else { 
+			        x.innerHTML = "Браузер не поддерживает геолокацию.";
+			    }
+			}
+
+			function showPosition(position) {
+			    x.innerHTML = "Широта: " + position.coords.latitude + 
+			    "<br>Долгота: " + position.coords.longitude;
+			}
+			</script>
+
+	</div>
+	<div id="can">
+		<canvas id="canvas" width="400" height="400"></canvas>
+		<script type="text/javascript" src="index.js"></script>
+	</div>
+</body>
+</html>

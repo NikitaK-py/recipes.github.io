@@ -1,0 +1,61 @@
+body{
+	background: linear-gradient(45deg ,#CE6A6B, #4A919E ) no-repeat;
+}
+.Menu{
+	text-align: right;
+	margin-left: 50px;
+}
+span{
+	padding: 15px;
+}
+a{
+	text-decoration: none;
+	font-size: 50px;
+	color:  #EBACA2;
+	font-style: italic;
+
+}
+a:hover{
+	font-size: 60px;
+	text-decoration: initial;
+}
+.Diagramm{
+	border:2px solid #000;
+	width: 300px;
+	margin-top: 200px;
+	margin-left: 300px;
+	transform: rotate(-90deg);
+}
+#One{
+	height: 40px;
+	width: 250px;
+	background-color: #CE6A6B;
+	padding: 3px;
+}
+#Two{
+	height: 40px;
+	width: 170px;
+	background-color: #EBACA2;
+	padding: 3px;
+}
+#Tree{
+	height: 40px;
+	width: 200px;
+	background-color: #BED3C3;
+	padding: 3px;
+}
+#Four{
+	height: 40px;
+	width: 90px;
+	background-color:#4A919E ;
+	padding: 3px;
+}
+#Five{
+	height: 40px;
+	width: 110px;
+	background-color:#212E53 ;
+	padding: 3px;
+}
+#Relation{
+	height: 700px;
+}

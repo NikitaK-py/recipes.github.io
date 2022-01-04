@@ -1,0 +1,29 @@
+body{
+	background-image: url("img/main_aboutmy.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+}
+#text,a{
+	color:#1F1631;
+	font-size: 50px;
+}
+li,a{
+	font-size: 40px;
+}
+ol , #example{
+	color: #B6C5CC;
+	text-align: left;
+	background-color:rgba(32,35,66,0.5);
+}
+.MainInformation,.exsample{
+	text-align: center;
+}
+
+#links{
+	background-color:rgba(32,35,66,0.5);
+}
+a{
+	color: #B6C5CC;
+	text-decoration: none;
+	font-style: italic;
+}
